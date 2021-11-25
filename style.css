@@ -1,0 +1,131 @@
+body{
+    color:rgb(44, 194, 144);
+    margin: 20px 20px;
+}
+.golden-border{
+    text-align: center;
+    border:5px solid goldenrod;
+    border-style: dashed;
+    margin-bottom: 30px
+}
+
+.green-border{
+    border:5px green;
+}
+#yellow-background{
+    text-align: center;
+    background-color: yellow;
+    margin: 10px;
+    padding-top: 4px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 40px;
+}
+#grey-background{
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 10px;
+    padding-top: 4px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 40px;
+}
+#blue-background{
+    text-align: center;
+    background-color: rgb(17, 17, 141);
+    margin: 10px;
+    padding: 5px 5px 4px 40px
+}
+#purple-background{
+    text-align: center;
+    background-color: rgb(128, 24, 128);
+    margin: 10px;
+    padding-top: 4px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 40px;
+}
+#font{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+* {box-sizing: border-box}
+
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: blue;
+  background: green;
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: bisque;
+  font-size: 30px;
+  padding: 15px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+a:hover{
+    color: black;
+    font-style: italic;
+    background-color: white;
+    font-size: 16px;
+}
+
+.border{
+    text-align: center;
+    border:5px solid tomato;
+    border-style: dotted;
+    margin: 20px 20px
+
+}
+
+.border-2{
+    text-align: center;
+    border:5px solid palegreen;
+    border-style: line;
+    margin: 0 auto;
+    width: 70%
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.horizontal-list{
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    display: inline;
+    float: left;
+}
+
+/* MEDIAQUERIES */
+
+@media (min-width: 1024px) {
+
+body{
+    background-color: #410000;
+    color: lightgreen;
+    font-size: small;
+    line-height: 1.5rem;
+
+    }
+
+}
